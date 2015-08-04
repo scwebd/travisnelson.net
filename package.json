@@ -1,0 +1,11 @@
+{
+  "name": "travisnelson.net",
+  "version": "0.1.0",
+  "private": "true",
+  "dependencies": {
+    "express": "4.x",
+    "express-handlebars": "1.x",
+    "underscore":"*"
+  },
+  "main": "server.js"
+}
