@@ -18,6 +18,7 @@ app.set('view engine', 'handlebars');
 app.get('/', function (req, res) { res.render('home', {navhome:"true"}) });
 app.get('/about/', function (req, res) { res.render('about', {navabout:"true"}) });
 app.get('/blog/', function (req, res) { res.render('blog', {navblog:"true"}) });
+app.get('/post/', function (req, res) { res.render('single-post', {navblog:"true"}) });
 
 app.use("/", express.static(__dirname + '/public'));
 
